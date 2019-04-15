@@ -1,0 +1,3 @@
+/home/dev/cpp-projects/build-log4cxx/test/build/CMakeFiles/rebuild_cache.dir
+/home/dev/cpp-projects/build-log4cxx/test/build/CMakeFiles/test-log4cxx.dir
+/home/dev/cpp-projects/build-log4cxx/test/build/CMakeFiles/edit_cache.dir

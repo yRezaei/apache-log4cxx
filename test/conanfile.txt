@@ -1,0 +1,5 @@
+[requires]
+log4cxx/0.10.0@yrezaei/stable
+
+[generators]
+cmake
