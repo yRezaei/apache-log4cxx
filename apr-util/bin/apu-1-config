@@ -21,22 +21,22 @@
 APRUTIL_MAJOR_VERSION="1"
 APRUTIL_DOTTED_VERSION="1.5.4"
 
-prefix="/home/dev/cpp-projects/build-log4cxx/apr-util"
+prefix="/home/yar/cpp-projects/apache-log4cxx/apr-util"
 exec_prefix="${prefix}"
 bindir="${exec_prefix}/bin"
 libdir="${exec_prefix}/lib"
 includedir="${prefix}/include/apr-${APRUTIL_MAJOR_VERSION}"
 
-LIBS="/home/dev/cpp-projects/build-log4cxx/tmp/apr-util/xml/expat/libexpat.la"
-INCLUDES="-I/home/dev/cpp-projects/build-log4cxx/tmp/apr-util/xml/expat/lib"
+LIBS="-lexpat"
+INCLUDES=""
 LDFLAGS=""
 LDAP_LIBS=""
 DBM_LIBS="  "
 
 APRUTIL_LIBNAME="aprutil-${APRUTIL_MAJOR_VERSION}"
 
-APU_SOURCE_DIR="/home/dev/cpp-projects/build-log4cxx/tmp/apr-util"
-APU_BUILD_DIR="/home/dev/cpp-projects/build-log4cxx/tmp/apr-util"
+APU_SOURCE_DIR="/home/yar/cpp-projects/apache-log4cxx/tmp/apr-util"
+APU_BUILD_DIR="/home/yar/cpp-projects/apache-log4cxx/tmp/apr-util"
 APR_XML_EXPAT_OLD="@APR_XML_EXPAT_OLD@"
 APU_DB_VERSION="0"
 

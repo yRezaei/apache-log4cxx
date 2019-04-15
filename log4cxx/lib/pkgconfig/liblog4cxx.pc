@@ -12,7 +12,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-prefix=/home/dev/cpp-projects/build-log4cxx/log4cxx
+prefix=/home/yar/cpp-projects/apache-log4cxx/log4cxx
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

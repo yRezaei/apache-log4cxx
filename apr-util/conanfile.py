@@ -8,11 +8,10 @@ class AprutilConan(ConanFile):
     description = "<Description of Aprutil here>"
     url = "None"
     license = "None"
+    author = "Yashar A. rezaei"
+    topics = None
     options = {"shared": [True, False]}
     default_options = {"shared": False}
-
-    def requirements(self):
-        self.requires.add("expat/2.0@yrezaei/stable")
 
     def package(self):
         self.copy("*")

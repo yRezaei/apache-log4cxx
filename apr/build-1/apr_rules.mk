@@ -24,9 +24,9 @@
 #
 # Configuration variables
 #
-apr_builddir=/home/dev/cpp-projects/build-log4cxx/apr/build-1
-apr_builders=/home/dev/cpp-projects/build-log4cxx/apr/build-1
-top_builddir=/home/dev/cpp-projects/build-log4cxx/apr/build-1
+apr_builddir=/home/yar/cpp-projects/apache-log4cxx/apr/build-1
+apr_builders=/home/yar/cpp-projects/apache-log4cxx/apr/build-1
+top_builddir=/home/yar/cpp-projects/apache-log4cxx/apr/build-1
 
 # Some layouts require knowing what version we are at.
 APR_MAJOR_VERSION=1
@@ -34,7 +34,7 @@ APR_DOTTED_VERSION=1.7.0
 
 CC=gcc
 RM=rm
-AWK=mawk
+AWK=gawk
 SHELL=/bin/bash
 LIBTOOL=$(SHELL) $(apr_builddir)/libtool
 
@@ -53,7 +53,7 @@ DEFS=-DHAVE_CONFIG_H
 EXTRA_CFLAGS=-g -O2 -pthread
 EXTRA_CPPFLAGS= -DLINUX -D_REENTRANT -D_GNU_SOURCE
 EXTRA_LDFLAGS=
-EXTRA_LIBS=-luuid -lrt -lcrypt  -lpthread -ldl
+EXTRA_LIBS=-lrt -lcrypt  -lpthread -ldl
 EXTRA_INCLUDES=
 
 # CPPFLAGS which are used only while building APR itself

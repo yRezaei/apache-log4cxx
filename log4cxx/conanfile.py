@@ -10,6 +10,8 @@ class Log4cxxConan(ConanFile):
     license = "None"
     author = "Yashar A. rezaei"
     topics = None
+    author = "Yashar A. rezaei"
+    topics = None
     options = {"shared": [True, False]}
     default_options = {"shared": False}
 

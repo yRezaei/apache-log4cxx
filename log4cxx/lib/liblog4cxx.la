@@ -17,7 +17,7 @@ old_library='liblog4cxx.a'
 inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/home/dev/cpp-projects/build-log4cxx/tmp/apr -L/home/dev/cpp-projects/build-log4cxx/tmp/apr-util /home/dev/cpp-projects/build-log4cxx/apr-util/lib/libaprutil-1.la /home/dev/cpp-projects/build-log4cxx/apr/lib/libapr-1.la -luuid -lrt -lcrypt -lpthread -ldl /home/dev/cpp-projects/build-log4cxx/expat/lib/libexpat.la'
+dependency_libs=' -L/home/yar/cpp-projects/apache-log4cxx/tmp/apr -L/home/yar/cpp-projects/apache-log4cxx/tmp/apr-util /home/yar/cpp-projects/apache-log4cxx/apr-util/lib/libaprutil-1.la /usr/lib/x86_64-linux-gnu/libexpat.la /home/yar/cpp-projects/apache-log4cxx/apr/lib/libapr-1.la -lrt -lcrypt -lpthread -ldl /usr/lib/x86_64-linux-gnu/libexpat.la'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/dev/cpp-projects/build-log4cxx/log4cxx/lib'
+libdir='/home/yar/cpp-projects/apache-log4cxx/log4cxx/lib'

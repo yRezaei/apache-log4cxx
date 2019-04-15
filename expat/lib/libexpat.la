@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/dev/cpp-projects/build-log4cxx/expat/lib'
+libdir='/home/yar/cpp-projects/apache-log4cxx/expat/lib'
